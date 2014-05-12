@@ -1,9 +1,9 @@
 {
-    "name": "KendoTimePicker",
-    "studioName": "KendoTimePicker",
-    "category": "Custom Widgets",
+    "name": "WakendoTimePicker",
+    "studioName": "WakendoTimePicker",
+    "category": "Kendo Widgets",
     "iconPath": "/icons/widget.png",
-    "author": "Widget Developer",
+    "author": "Alexis Coudeyras",
     "contributors": [
         "Alexis Coudeyras"
     ],
@@ -18,9 +18,9 @@
     "license": "MIT",
     "loadDependencies": [
         {"id": "Widget_V2"},
-		{"id": "KendoCore/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-		{"id": "KendoCore/lib/telerik.kendoui.core/js/kendo.timepicker.min.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "KendoTimePicker/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "KendoTimePicker/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+	{"id": "WakendoCore/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+	{"id": "WakendoCore/lib/telerik.kendoui.core/js/kendo.timepicker.min.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WakendoTimePicker/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WakendoTimePicker/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
     ]
 }

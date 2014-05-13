@@ -34,19 +34,19 @@ WAF.define('WakendoTimePicker', ['waf-core/widget', 'wakendoCore'], function(wid
         },
 
         open: function() {
-        	self.kendoWidget.open();
+        	this.kendoWidget.open();
         },
 
         close: function() {
-        	self.kendoWidget.close();
+        	this.kendoWidget.close();
         },
 
         enable: function() {
-        	self.kendoWidget.enable();
+        	this.kendoWidget.enable();
         },
 
         disable: function() {
-        	self.kendoWidget.enable(false);
+        	this.kendoWidget.enable(false);
         }
 
     });

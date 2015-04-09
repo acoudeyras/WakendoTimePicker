@@ -8,5 +8,15 @@
         'defaultValue': 'Label',
         'position': 'left'
     });	
+    
+    KendoTimePicker.setPanelStyle({
+	        'fClass': true,
+	        'text': true,
+	        'background': true,
+	        'border': true,
+	        'sizePosition': true,
+	        'label': true,
+	        'disabled': ['border-radius']
+    	});
 
 });
